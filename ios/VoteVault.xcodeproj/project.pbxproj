@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930B9E182E92D4EB00468D9E /* StateSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E172E92D4EB00468D9E /* StateSelectionView.swift */; };
+		930B9E1A2E92D50900468D9E /* WAElectionTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E192E92D50900468D9E /* WAElectionTypesView.swift */; };
+		930B9E1C2E92D52300468D9E /* WAElectionYearsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E1B2E92D52200468D9E /* WAElectionYearsView.swift */; };
+		930B9E202E92D53E00468D9E /* WACandidateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E1F2E92D53E00468D9E /* WACandidateListView.swift */; };
+		930B9E222E92D55B00468D9E /* WACandidateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E212E92D55B00468D9E /* WACandidateDetailView.swift */; };
+		930B9E242E9B4BC700468D9E /* WACandidateTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E232E9B4BC700468D9E /* WACandidateTileView.swift */; };
+		930B9E262EA2FBEB00468D9E /* NYElectionTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E252EA2FBEB00468D9E /* NYElectionTypesView.swift */; };
+		930B9E282EA2FC0100468D9E /* NYElectionYearsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E272EA2FC0100468D9E /* NYElectionYearsView.swift */; };
+		930B9E2A2EA2FC1800468D9E /* NYCandidateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E292EA2FC1800468D9E /* NYCandidateListView.swift */; };
+		930B9E2C2EA2FC2E00468D9E /* NYCandidateTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E2B2EA2FC2E00468D9E /* NYCandidateTileView.swift */; };
+		930B9E2E2EA2FC3E00468D9E /* NYCandidateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E2D2EA2FC3E00468D9E /* NYCandidateDetailView.swift */; };
+		930B9E302EA2FC6A00468D9E /* NYDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E2F2EA2FC6A00468D9E /* NYDataStore.swift */; };
+		930B9E322EA5132300468D9E /* ILDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E312EA5131C00468D9E /* ILDataStore.swift */; };
+		930B9E342EA5134800468D9E /* ILElectionTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E332EA5134800468D9E /* ILElectionTypesView.swift */; };
+		930B9E362EA5135600468D9E /* ILElectionYearsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E352EA5135600468D9E /* ILElectionYearsView.swift */; };
+		930B9E382EA5136700468D9E /* ILCandidateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E372EA5136700468D9E /* ILCandidateListView.swift */; };
+		930B9E3A2EA5137500468D9E /* ILCandidateTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E392EA5137500468D9E /* ILCandidateTileView.swift */; };
+		930B9E3C2EA5138000468D9E /* ILCandidateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E3B2EA5138000468D9E /* ILCandidateDetailView.swift */; };
+		930B9E3E2EA83D3D00468D9E /* NJDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E3D2EA83D3A00468D9E /* NJDataStore.swift */; };
+		930B9E402EA83D4F00468D9E /* NJElectionTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E3F2EA83D4F00468D9E /* NJElectionTypesView.swift */; };
+		930B9E422EA83D5D00468D9E /* NJElectionYearsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E412EA83D5D00468D9E /* NJElectionYearsView.swift */; };
+		930B9E442EA83D6E00468D9E /* NJCandidateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E432EA83D6E00468D9E /* NJCandidateListView.swift */; };
+		930B9E462EA83D7800468D9E /* NJCandidateTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E452EA83D7800468D9E /* NJCandidateTileView.swift */; };
+		930B9E482EA83D8500468D9E /* NJCandidateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E472EA83D8500468D9E /* NJCandidateDetailView.swift */; };
+		930B9E4A2EAD8DAB00468D9E /* NYCDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E492EAD8DA700468D9E /* NYCDataStore.swift */; };
+		930B9E4C2EAD9B1600468D9E /* LocalCitySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E4B2EAD9B1600468D9E /* LocalCitySelectionView.swift */; };
+		930B9E4F2EAD9B4100468D9E /* NYCMayoralElectionYearsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E4E2EAD9B4100468D9E /* NYCMayoralElectionYearsView.swift */; };
+		930B9E512EAD9B6000468D9E /* NYCMayoralCandidateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E502EAD9B6000468D9E /* NYCMayoralCandidateListView.swift */; };
+		930B9E532EAD9B7900468D9E /* NYCMayoralCandidateTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E522EAD9B7900468D9E /* NYCMayoralCandidateTileView.swift */; };
+		930B9E552EAD9B8800468D9E /* NYCMayoralCandidateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E542EAD9B8800468D9E /* NYCMayoralCandidateDetailView.swift */; };
+		930B9E572EAD9F3000468D9E /* NYCCFBDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E562EAD9F3000468D9E /* NYCCFBDataModels.swift */; };
+		930B9E592EAD9F4900468D9E /* NYCCFBContributionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E582EAD9F4900468D9E /* NYCCFBContributionRowView.swift */; };
+		930B9E5B2EADA70F00468D9E /* NYCCFBExpenditureRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E5A2EADA70F00468D9E /* NYCCFBExpenditureRowView.swift */; };
+		930B9E5D2EB2E6DE00468D9E /* SFDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E5C2EB2E6DB00468D9E /* SFDataStore.swift */; };
+		930B9E622EB4240700468D9E /* SFDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E612EB4240400468D9E /* SFDataModels.swift */; };
+		930B9E642EB4241B00468D9E /* SFElectionYearsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E632EB4241B00468D9E /* SFElectionYearsView.swift */; };
+		930B9E662EB4242E00468D9E /* SFCandidateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E652EB4242E00468D9E /* SFCandidateListView.swift */; };
+		930B9E682EB4243C00468D9E /* SFCandidateTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E672EB4243C00468D9E /* SFCandidateTileView.swift */; };
+		930B9E6A2EB4244A00468D9E /* SFTransactionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E692EB4244A00468D9E /* SFTransactionRowView.swift */; };
+		930B9E6C2EB4245400468D9E /* SFCandidateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B9E6B2EB4245400468D9E /* SFCandidateDetailView.swift */; };
+		930B9E6E2EB425FC00468D9E /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 930B9E6D2EB425FC00468D9E /* Secrets.xcconfig */; };
+		936191822E627788004D5EF1 /* TopSuperPACExpendituresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936191812E627788004D5EF1 /* TopSuperPACExpendituresView.swift */; };
+		936191842E6277A2004D5EF1 /* SuperPACExpenditureRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936191832E6277A2004D5EF1 /* SuperPACExpenditureRowView.swift */; };
+		936191862E6278BB004D5EF1 /* SuperPACElectionCyclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936191852E6278BB004D5EF1 /* SuperPACElectionCyclesView.swift */; };
+		93BED8612E5B7B5E002FE21B /* FederalElectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BED8432E5B70F2002FE21B /* FederalElectionsView.swift */; };
+		93BED87F2E5B7BD7002FE21B /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BED8422E5B705A002FE21B /* DataModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9390CC152E58E96A00CBFD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9390CBFF2E58E96900CBFD35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9390CC062E58E96900CBFD35;
+			remoteInfo = VoteVault;
+		};
+		9390CC1F2E58E96A00CBFD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9390CBFF2E58E96900CBFD35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9390CC062E58E96900CBFD35;
+			remoteInfo = VoteVault;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		930B9E172E92D4EB00468D9E /* StateSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateSelectionView.swift; sourceTree = "<group>"; };
+		930B9E192E92D50900468D9E /* WAElectionTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAElectionTypesView.swift; sourceTree = "<group>"; };
+		930B9E1B2E92D52200468D9E /* WAElectionYearsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAElectionYearsView.swift; sourceTree = "<group>"; };
+		930B9E1F2E92D53E00468D9E /* WACandidateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WACandidateListView.swift; sourceTree = "<group>"; };
+		930B9E212E92D55B00468D9E /* WACandidateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WACandidateDetailView.swift; sourceTree = "<group>"; };
+		930B9E232E9B4BC700468D9E /* WACandidateTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WACandidateTileView.swift; sourceTree = "<group>"; };
+		930B9E252EA2FBEB00468D9E /* NYElectionTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYElectionTypesView.swift; sourceTree = "<group>"; };
+		930B9E272EA2FC0100468D9E /* NYElectionYearsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYElectionYearsView.swift; sourceTree = "<group>"; };
+		930B9E292EA2FC1800468D9E /* NYCandidateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCandidateListView.swift; sourceTree = "<group>"; };
+		930B9E2B2EA2FC2E00468D9E /* NYCandidateTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCandidateTileView.swift; sourceTree = "<group>"; };
+		930B9E2D2EA2FC3E00468D9E /* NYCandidateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCandidateDetailView.swift; sourceTree = "<group>"; };
+		930B9E2F2EA2FC6A00468D9E /* NYDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYDataStore.swift; sourceTree = "<group>"; };
+		930B9E312EA5131C00468D9E /* ILDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILDataStore.swift; sourceTree = "<group>"; };
+		930B9E332EA5134800468D9E /* ILElectionTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILElectionTypesView.swift; sourceTree = "<group>"; };
+		930B9E352EA5135600468D9E /* ILElectionYearsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILElectionYearsView.swift; sourceTree = "<group>"; };
+		930B9E372EA5136700468D9E /* ILCandidateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILCandidateListView.swift; sourceTree = "<group>"; };
+		930B9E392EA5137500468D9E /* ILCandidateTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILCandidateTileView.swift; sourceTree = "<group>"; };
+		930B9E3B2EA5138000468D9E /* ILCandidateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILCandidateDetailView.swift; sourceTree = "<group>"; };
+		930B9E3D2EA83D3A00468D9E /* NJDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJDataStore.swift; sourceTree = "<group>"; };
+		930B9E3F2EA83D4F00468D9E /* NJElectionTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJElectionTypesView.swift; sourceTree = "<group>"; };
+		930B9E412EA83D5D00468D9E /* NJElectionYearsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJElectionYearsView.swift; sourceTree = "<group>"; };
+		930B9E432EA83D6E00468D9E /* NJCandidateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJCandidateListView.swift; sourceTree = "<group>"; };
+		930B9E452EA83D7800468D9E /* NJCandidateTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJCandidateTileView.swift; sourceTree = "<group>"; };
+		930B9E472EA83D8500468D9E /* NJCandidateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJCandidateDetailView.swift; sourceTree = "<group>"; };
+		930B9E492EAD8DA700468D9E /* NYCDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCDataStore.swift; sourceTree = "<group>"; };
+		930B9E4B2EAD9B1600468D9E /* LocalCitySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalCitySelectionView.swift; sourceTree = "<group>"; };
+		930B9E4E2EAD9B4100468D9E /* NYCMayoralElectionYearsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCMayoralElectionYearsView.swift; sourceTree = "<group>"; };
+		930B9E502EAD9B6000468D9E /* NYCMayoralCandidateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCMayoralCandidateListView.swift; sourceTree = "<group>"; };
+		930B9E522EAD9B7900468D9E /* NYCMayoralCandidateTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCMayoralCandidateTileView.swift; sourceTree = "<group>"; };
+		930B9E542EAD9B8800468D9E /* NYCMayoralCandidateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCMayoralCandidateDetailView.swift; sourceTree = "<group>"; };
+		930B9E562EAD9F3000468D9E /* NYCCFBDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCCFBDataModels.swift; sourceTree = "<group>"; };
+		930B9E582EAD9F4900468D9E /* NYCCFBContributionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCCFBContributionRowView.swift; sourceTree = "<group>"; };
+		930B9E5A2EADA70F00468D9E /* NYCCFBExpenditureRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCCFBExpenditureRowView.swift; sourceTree = "<group>"; };
+		930B9E5C2EB2E6DB00468D9E /* SFDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFDataStore.swift; sourceTree = "<group>"; };
+		930B9E612EB4240400468D9E /* SFDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFDataModels.swift; sourceTree = "<group>"; };
+		930B9E632EB4241B00468D9E /* SFElectionYearsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFElectionYearsView.swift; sourceTree = "<group>"; };
+		930B9E652EB4242E00468D9E /* SFCandidateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFCandidateListView.swift; sourceTree = "<group>"; };
+		930B9E672EB4243C00468D9E /* SFCandidateTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFCandidateTileView.swift; sourceTree = "<group>"; };
+		930B9E692EB4244A00468D9E /* SFTransactionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFTransactionRowView.swift; sourceTree = "<group>"; };
+		930B9E6B2EB4245400468D9E /* SFCandidateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFCandidateDetailView.swift; sourceTree = "<group>"; };
+		930B9E6D2EB425FC00468D9E /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		932BFAF52EB6835F001FBEAC /* VoteVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoteVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		932BFAF62EB6835F001FBEAC /* VoteVaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoteVaultTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		932BFAF72EB6835F001FBEAC /* VoteVaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoteVaultUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		936191812E627788004D5EF1 /* TopSuperPACExpendituresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSuperPACExpendituresView.swift; sourceTree = "<group>"; };
+		936191832E6277A2004D5EF1 /* SuperPACExpenditureRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPACExpenditureRowView.swift; sourceTree = "<group>"; };
+		936191852E6278BB004D5EF1 /* SuperPACElectionCyclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPACElectionCyclesView.swift; sourceTree = "<group>"; };
+		93BED8422E5B705A002FE21B /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		93BED8432E5B70F2002FE21B /* FederalElectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FederalElectionsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		930B9E702EB4387400468D9E /* Exceptions for "VoteVault" folder in "VoteVault" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9390CC062E58E96900CBFD35 /* VoteVault */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9390CC092E58E96900CBFD35 /* VoteVault */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				930B9E702EB4387400468D9E /* Exceptions for "VoteVault" folder in "VoteVault" target */,
+			);
+			path = VoteVault;
+			sourceTree = "<group>";
+		};
+		9390CC172E58E96A00CBFD35 /* VoteVaultTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VoteVaultTests;
+			sourceTree = "<group>";
+		};
+		9390CC212E58E96A00CBFD35 /* VoteVaultUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VoteVaultUITests;
+			sourceTree = "<group>";
+		};
+		93BED83E2E5B7030002FE21B /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		93BED83F2E5B703A002FE21B /* Presidential */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Presidential;
+			sourceTree = "<group>";
+		};
+		93BED8402E5B7041002FE21B /* Senate */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Senate;
+			sourceTree = "<group>";
+		};
+		93BED8412E5B7048002FE21B /* House */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = House;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9390CC042E58E96900CBFD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CC112E58E96A00CBFD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CC1B2E58E96A00CBFD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		930B9E162E92D46800468D9E /* StateElections */ = {
+			isa = PBXGroup;
+			children = (
+				930B9E472EA83D8500468D9E /* NJCandidateDetailView.swift */,
+				930B9E452EA83D7800468D9E /* NJCandidateTileView.swift */,
+				930B9E432EA83D6E00468D9E /* NJCandidateListView.swift */,
+				930B9E412EA83D5D00468D9E /* NJElectionYearsView.swift */,
+				930B9E3F2EA83D4F00468D9E /* NJElectionTypesView.swift */,
+				930B9E3B2EA5138000468D9E /* ILCandidateDetailView.swift */,
+				930B9E392EA5137500468D9E /* ILCandidateTileView.swift */,
+				930B9E372EA5136700468D9E /* ILCandidateListView.swift */,
+				930B9E352EA5135600468D9E /* ILElectionYearsView.swift */,
+				930B9E332EA5134800468D9E /* ILElectionTypesView.swift */,
+				930B9E2D2EA2FC3E00468D9E /* NYCandidateDetailView.swift */,
+				930B9E2B2EA2FC2E00468D9E /* NYCandidateTileView.swift */,
+				930B9E292EA2FC1800468D9E /* NYCandidateListView.swift */,
+				930B9E272EA2FC0100468D9E /* NYElectionYearsView.swift */,
+				930B9E252EA2FBEB00468D9E /* NYElectionTypesView.swift */,
+				930B9E232E9B4BC700468D9E /* WACandidateTileView.swift */,
+				930B9E212E92D55B00468D9E /* WACandidateDetailView.swift */,
+				930B9E1F2E92D53E00468D9E /* WACandidateListView.swift */,
+				930B9E1B2E92D52200468D9E /* WAElectionYearsView.swift */,
+				930B9E192E92D50900468D9E /* WAElectionTypesView.swift */,
+				930B9E172E92D4EB00468D9E /* StateSelectionView.swift */,
+			);
+			path = StateElections;
+			sourceTree = "<group>";
+		};
+		930B9E4D2EAD9B3600468D9E /* LocalElections */ = {
+			isa = PBXGroup;
+			children = (
+				930B9E6B2EB4245400468D9E /* SFCandidateDetailView.swift */,
+				930B9E692EB4244A00468D9E /* SFTransactionRowView.swift */,
+				930B9E672EB4243C00468D9E /* SFCandidateTileView.swift */,
+				930B9E652EB4242E00468D9E /* SFCandidateListView.swift */,
+				930B9E632EB4241B00468D9E /* SFElectionYearsView.swift */,
+				930B9E5A2EADA70F00468D9E /* NYCCFBExpenditureRowView.swift */,
+				930B9E582EAD9F4900468D9E /* NYCCFBContributionRowView.swift */,
+				930B9E542EAD9B8800468D9E /* NYCMayoralCandidateDetailView.swift */,
+				930B9E522EAD9B7900468D9E /* NYCMayoralCandidateTileView.swift */,
+				930B9E502EAD9B6000468D9E /* NYCMayoralCandidateListView.swift */,
+				930B9E4E2EAD9B4100468D9E /* NYCMayoralElectionYearsView.swift */,
+				930B9E4B2EAD9B1600468D9E /* LocalCitySelectionView.swift */,
+			);
+			path = LocalElections;
+			sourceTree = "<group>";
+		};
+		936191802E62777E004D5EF1 /* SuperPACs */ = {
+			isa = PBXGroup;
+			children = (
+				936191852E6278BB004D5EF1 /* SuperPACElectionCyclesView.swift */,
+				936191832E6277A2004D5EF1 /* SuperPACExpenditureRowView.swift */,
+				936191812E627788004D5EF1 /* TopSuperPACExpendituresView.swift */,
+			);
+			path = SuperPACs;
+			sourceTree = "<group>";
+		};
+		9390CBFE2E58E96900CBFD35 = {
+			isa = PBXGroup;
+			children = (
+				93BED83D2E5B701C002FE21B /* Views */,
+				93BED83C2E5B7001002FE21B /* Models */,
+				9390CC092E58E96900CBFD35 /* VoteVault */,
+				9390CC172E58E96A00CBFD35 /* VoteVaultTests */,
+				9390CC212E58E96A00CBFD35 /* VoteVaultUITests */,
+				930B9E6D2EB425FC00468D9E /* Secrets.xcconfig */,
+				932BFAF52EB6835F001FBEAC /* VoteVault.app */,
+				932BFAF62EB6835F001FBEAC /* VoteVaultTests.xctest */,
+				932BFAF72EB6835F001FBEAC /* VoteVaultUITests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		93BED83C2E5B7001002FE21B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				930B9E612EB4240400468D9E /* SFDataModels.swift */,
+				930B9E5C2EB2E6DB00468D9E /* SFDataStore.swift */,
+				930B9E562EAD9F3000468D9E /* NYCCFBDataModels.swift */,
+				930B9E492EAD8DA700468D9E /* NYCDataStore.swift */,
+				930B9E3D2EA83D3A00468D9E /* NJDataStore.swift */,
+				930B9E312EA5131C00468D9E /* ILDataStore.swift */,
+				930B9E2F2EA2FC6A00468D9E /* NYDataStore.swift */,
+				93BED8422E5B705A002FE21B /* DataModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93BED83D2E5B701C002FE21B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				930B9E4D2EAD9B3600468D9E /* LocalElections */,
+				930B9E162E92D46800468D9E /* StateElections */,
+				936191802E62777E004D5EF1 /* SuperPACs */,
+				93BED8432E5B70F2002FE21B /* FederalElectionsView.swift */,
+				93BED8412E5B7048002FE21B /* House */,
+				93BED8402E5B7041002FE21B /* Senate */,
+				93BED83F2E5B703A002FE21B /* Presidential */,
+				93BED83E2E5B7030002FE21B /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9390CC062E58E96900CBFD35 /* VoteVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9390CC282E58E96A00CBFD35 /* Build configuration list for PBXNativeTarget "VoteVault" */;
+			buildPhases = (
+				9390CC032E58E96900CBFD35 /* Sources */,
+				9390CC042E58E96900CBFD35 /* Frameworks */,
+				9390CC052E58E96900CBFD35 /* Resources */,
+				93F5CA362E64AED800DC437D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9390CC092E58E96900CBFD35 /* VoteVault */,
+				93BED83E2E5B7030002FE21B /* Shared */,
+				93BED83F2E5B703A002FE21B /* Presidential */,
+				93BED8402E5B7041002FE21B /* Senate */,
+				93BED8412E5B7048002FE21B /* House */,
+			);
+			name = VoteVault;
+			packageProductDependencies = (
+			);
+			productName = VoteVault;
+			productReference = 932BFAF52EB6835F001FBEAC /* VoteVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9390CC132E58E96A00CBFD35 /* VoteVaultTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9390CC2B2E58E96A00CBFD35 /* Build configuration list for PBXNativeTarget "VoteVaultTests" */;
+			buildPhases = (
+				9390CC102E58E96A00CBFD35 /* Sources */,
+				9390CC112E58E96A00CBFD35 /* Frameworks */,
+				9390CC122E58E96A00CBFD35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9390CC162E58E96A00CBFD35 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9390CC172E58E96A00CBFD35 /* VoteVaultTests */,
+			);
+			name = VoteVaultTests;
+			packageProductDependencies = (
+			);
+			productName = VoteVaultTests;
+			productReference = 932BFAF62EB6835F001FBEAC /* VoteVaultTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9390CC1D2E58E96A00CBFD35 /* VoteVaultUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9390CC2E2E58E96A00CBFD35 /* Build configuration list for PBXNativeTarget "VoteVaultUITests" */;
+			buildPhases = (
+				9390CC1A2E58E96A00CBFD35 /* Sources */,
+				9390CC1B2E58E96A00CBFD35 /* Frameworks */,
+				9390CC1C2E58E96A00CBFD35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9390CC202E58E96A00CBFD35 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9390CC212E58E96A00CBFD35 /* VoteVaultUITests */,
+			);
+			name = VoteVaultUITests;
+			packageProductDependencies = (
+			);
+			productName = VoteVaultUITests;
+			productReference = 932BFAF72EB6835F001FBEAC /* VoteVaultUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9390CBFF2E58E96900CBFD35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					9390CC062E58E96900CBFD35 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					9390CC132E58E96A00CBFD35 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 9390CC062E58E96900CBFD35;
+					};
+					9390CC1D2E58E96A00CBFD35 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 9390CC062E58E96900CBFD35;
+					};
+				};
+			};
+			buildConfigurationList = 9390CC022E58E96900CBFD35 /* Build configuration list for PBXProject "VoteVault" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9390CBFE2E58E96900CBFD35;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9390CBFE2E58E96900CBFD35;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9390CC062E58E96900CBFD35 /* VoteVault */,
+				9390CC132E58E96A00CBFD35 /* VoteVaultTests */,
+				9390CC1D2E58E96A00CBFD35 /* VoteVaultUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9390CC052E58E96900CBFD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930B9E6E2EB425FC00468D9E /* Secrets.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CC122E58E96A00CBFD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CC1C2E58E96A00CBFD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93F5CA362E64AED800DC437D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Exit immediately if a command exits with a non-zero status.\nset -e\n\necho \"--- Running Build Info Script ---\"\n\n# --- Set Info.plist Path ---\nINFO_PLIST_PATH=\"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n\n# --- 1. Build Number (App Store Compliant) ---\n# Get the total number of commits for the build number.\nBUILD_NUMBER=$(git rev-list --count HEAD)\necho \"Build number (commit count): $BUILD_NUMBER\"\n# Update the CFBundleVersion with the new integer build number.\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_NUMBER\" \"$INFO_PLIST_PATH\" || \\\n/usr/libexec/PlistBuddy -c \"Add :CFBundleVersion string $BUILD_NUMBER\" \"$INFO_PLIST_PATH\"\n\n# --- 2. Git Commit SHA (for debugging) ---\n# Get the short git commit hash.\nGIT_SHA=$(git rev-parse --short HEAD)\necho \"Git commit SHA: $GIT_SHA\"\n# Update the GitCommitSHA with the new string value.\n/usr/libexec/PlistBuddy -c \"Set :GitCommitSHA $GIT_SHA\" \"$INFO_PLIST_PATH\" || \\\n/usr/libexec/PlistBuddy -c \"Add :GitCommitSHA string $GIT_SHA\" \"$INFO_PLIST_PATH\"\n\necho \"--- Script finished successfully ---\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9390CC032E58E96900CBFD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930B9E5D2EB2E6DE00468D9E /* SFDataStore.swift in Sources */,
+				936191842E6277A2004D5EF1 /* SuperPACExpenditureRowView.swift in Sources */,
+				936191822E627788004D5EF1 /* TopSuperPACExpendituresView.swift in Sources */,
+				930B9E342EA5134800468D9E /* ILElectionTypesView.swift in Sources */,
+				936191862E6278BB004D5EF1 /* SuperPACElectionCyclesView.swift in Sources */,
+				93BED87F2E5B7BD7002FE21B /* DataModels.swift in Sources */,
+				930B9E482EA83D8500468D9E /* NJCandidateDetailView.swift in Sources */,
+				930B9E642EB4241B00468D9E /* SFElectionYearsView.swift in Sources */,
+				93BED8612E5B7B5E002FE21B /* FederalElectionsView.swift in Sources */,
+				930B9E1C2E92D52300468D9E /* WAElectionYearsView.swift in Sources */,
+				930B9E622EB4240700468D9E /* SFDataModels.swift in Sources */,
+				930B9E5B2EADA70F00468D9E /* NYCCFBExpenditureRowView.swift in Sources */,
+				930B9E572EAD9F3000468D9E /* NYCCFBDataModels.swift in Sources */,
+				930B9E512EAD9B6000468D9E /* NYCMayoralCandidateListView.swift in Sources */,
+				930B9E6A2EB4244A00468D9E /* SFTransactionRowView.swift in Sources */,
+				930B9E3A2EA5137500468D9E /* ILCandidateTileView.swift in Sources */,
+				930B9E302EA2FC6A00468D9E /* NYDataStore.swift in Sources */,
+				930B9E3E2EA83D3D00468D9E /* NJDataStore.swift in Sources */,
+				930B9E242E9B4BC700468D9E /* WACandidateTileView.swift in Sources */,
+				930B9E402EA83D4F00468D9E /* NJElectionTypesView.swift in Sources */,
+				930B9E1A2E92D50900468D9E /* WAElectionTypesView.swift in Sources */,
+				930B9E202E92D53E00468D9E /* WACandidateListView.swift in Sources */,
+				930B9E552EAD9B8800468D9E /* NYCMayoralCandidateDetailView.swift in Sources */,
+				930B9E442EA83D6E00468D9E /* NJCandidateListView.swift in Sources */,
+				930B9E662EB4242E00468D9E /* SFCandidateListView.swift in Sources */,
+				930B9E262EA2FBEB00468D9E /* NYElectionTypesView.swift in Sources */,
+				930B9E4A2EAD8DAB00468D9E /* NYCDataStore.swift in Sources */,
+				930B9E282EA2FC0100468D9E /* NYElectionYearsView.swift in Sources */,
+				930B9E362EA5135600468D9E /* ILElectionYearsView.swift in Sources */,
+				930B9E6C2EB4245400468D9E /* SFCandidateDetailView.swift in Sources */,
+				930B9E462EA83D7800468D9E /* NJCandidateTileView.swift in Sources */,
+				930B9E182E92D4EB00468D9E /* StateSelectionView.swift in Sources */,
+				930B9E3C2EA5138000468D9E /* ILCandidateDetailView.swift in Sources */,
+				930B9E2A2EA2FC1800468D9E /* NYCandidateListView.swift in Sources */,
+				930B9E4C2EAD9B1600468D9E /* LocalCitySelectionView.swift in Sources */,
+				930B9E682EB4243C00468D9E /* SFCandidateTileView.swift in Sources */,
+				930B9E222E92D55B00468D9E /* WACandidateDetailView.swift in Sources */,
+				930B9E2C2EA2FC2E00468D9E /* NYCandidateTileView.swift in Sources */,
+				930B9E382EA5136700468D9E /* ILCandidateListView.swift in Sources */,
+				930B9E2E2EA2FC3E00468D9E /* NYCandidateDetailView.swift in Sources */,
+				930B9E322EA5132300468D9E /* ILDataStore.swift in Sources */,
+				930B9E592EAD9F4900468D9E /* NYCCFBContributionRowView.swift in Sources */,
+				930B9E532EAD9B7900468D9E /* NYCMayoralCandidateTileView.swift in Sources */,
+				930B9E4F2EAD9B4100468D9E /* NYCMayoralElectionYearsView.swift in Sources */,
+				930B9E422EA83D5D00468D9E /* NJElectionYearsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CC102E58E96A00CBFD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CC1A2E58E96A00CBFD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9390CC162E58E96A00CBFD35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9390CC062E58E96900CBFD35 /* VoteVault */;
+			targetProxy = 9390CC152E58E96A00CBFD35 /* PBXContainerItemProxy */;
+		};
+		9390CC202E58E96A00CBFD35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9390CC062E58E96900CBFD35 /* VoteVault */;
+			targetProxy = 9390CC1F2E58E96A00CBFD35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9390CC262E58E96A00CBFD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930B9E6D2EB425FC00468D9E /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9390CC272E58E96A00CBFD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930B9E6D2EB425FC00468D9E /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9390CC292E58E96A00CBFD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930B9E6D2EB425FC00468D9E /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Z43RA3M4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoteVault/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VoteVault;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.VoteVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9390CC2A2E58E96A00CBFD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930B9E6D2EB425FC00468D9E /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Z43RA3M4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoteVault/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VoteVault;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.VoteVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9390CC2C2E58E96A00CBFD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VoteVaultTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoteVault.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VoteVault";
+			};
+			name = Debug;
+		};
+		9390CC2D2E58E96A00CBFD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VoteVaultTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoteVault.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VoteVault";
+			};
+			name = Release;
+		};
+		9390CC2F2E58E96A00CBFD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VoteVaultUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoteVault;
+			};
+			name = Debug;
+		};
+		9390CC302E58E96A00CBFD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.VoteVaultUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoteVault;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9390CC022E58E96900CBFD35 /* Build configuration list for PBXProject "VoteVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9390CC262E58E96A00CBFD35 /* Debug */,
+				9390CC272E58E96A00CBFD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9390CC282E58E96A00CBFD35 /* Build configuration list for PBXNativeTarget "VoteVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9390CC292E58E96A00CBFD35 /* Debug */,
+				9390CC2A2E58E96A00CBFD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9390CC2B2E58E96A00CBFD35 /* Build configuration list for PBXNativeTarget "VoteVaultTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9390CC2C2E58E96A00CBFD35 /* Debug */,
+				9390CC2D2E58E96A00CBFD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9390CC2E2E58E96A00CBFD35 /* Build configuration list for PBXNativeTarget "VoteVaultUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9390CC2F2E58E96A00CBFD35 /* Debug */,
+				9390CC302E58E96A00CBFD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9390CBFF2E58E96900CBFD35 /* Project object */;
+}
