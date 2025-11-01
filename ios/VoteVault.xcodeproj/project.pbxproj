@@ -114,9 +114,9 @@
 		930B9E692EB4244A00468D9E /* SFTransactionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFTransactionRowView.swift; sourceTree = "<group>"; };
 		930B9E6B2EB4245400468D9E /* SFCandidateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFCandidateDetailView.swift; sourceTree = "<group>"; };
 		930B9E6D2EB425FC00468D9E /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
-		932BFAF52EB6835F001FBEAC /* VoteVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoteVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		932BFAF62EB6835F001FBEAC /* VoteVaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoteVaultTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		932BFAF72EB6835F001FBEAC /* VoteVaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoteVaultUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		932BFAF52EB6835F001FBEAC /* VoteVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = VoteVault.app; path = "/Users/asaxena/workspace/apps/VoteVault/ios/build/Debug-iphoneos/VoteVault.app"; sourceTree = "<absolute>"; };
+		932BFAF62EB6835F001FBEAC /* VoteVaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VoteVaultTests.xctest; path = "/Users/asaxena/workspace/apps/VoteVault/ios/build/Debug-iphoneos/VoteVault.app/PlugIns/VoteVaultTests.xctest"; sourceTree = "<absolute>"; };
+		932BFAF72EB6835F001FBEAC /* VoteVaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VoteVaultUITests.xctest; path = "/Users/asaxena/workspace/apps/VoteVault/ios/build/Debug-iphoneos/VoteVaultUITests-Runner.app/PlugIns/VoteVaultUITests.xctest"; sourceTree = "<absolute>"; };
 		936191812E627788004D5EF1 /* TopSuperPACExpendituresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSuperPACExpendituresView.swift; sourceTree = "<group>"; };
 		936191832E6277A2004D5EF1 /* SuperPACExpenditureRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPACExpenditureRowView.swift; sourceTree = "<group>"; };
 		936191852E6278BB004D5EF1 /* SuperPACElectionCyclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPACElectionCyclesView.swift; sourceTree = "<group>"; };
@@ -266,9 +266,6 @@
 				9390CC172E58E96A00CBFD35 /* VoteVaultTests */,
 				9390CC212E58E96A00CBFD35 /* VoteVaultUITests */,
 				930B9E6D2EB425FC00468D9E /* Secrets.xcconfig */,
-				932BFAF52EB6835F001FBEAC /* VoteVault.app */,
-				932BFAF62EB6835F001FBEAC /* VoteVaultTests.xctest */,
-				932BFAF72EB6835F001FBEAC /* VoteVaultUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
