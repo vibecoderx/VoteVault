@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="VoteVault/Assets.xcassets/AppIcon.appiconset/VoteVault.png" alt="VoteVault Logo" width="150" height="150">
+  <img src="ios/VoteVault/Assets.xcassets/AppIcon.appiconset/VoteVault.png" alt="VoteVault Logo" width="150" height="150">
   <h1 align="center">VoteVault</h1>
   <p align="center">
     Follow the money in US politics, from D.C. to your City Hall.
