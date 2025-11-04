@@ -126,7 +126,6 @@
 		936191852E6278BB004D5EF1 /* SuperPACElectionCyclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperPACElectionCyclesView.swift; sourceTree = "<group>"; };
 		93BED8422E5B705A002FE21B /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 		93BED8432E5B70F2002FE21B /* FederalElectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FederalElectionsView.swift; sourceTree = "<group>"; };
-		93E3C6862EB6C7E600833621 /* VoteVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = VoteVault.app; path = "/Users/asaxena/workspace/apps/VoteVault/ios/build/Debug-iphoneos/VoteVault.app"; sourceTree = "<absolute>"; };
 		93E3C6872EB6C7E600833621 /* VoteVaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VoteVaultTests.xctest; path = "/Users/asaxena/workspace/apps/VoteVault/ios/build/Debug-iphoneos/VoteVault.app/PlugIns/VoteVaultTests.xctest"; sourceTree = "<absolute>"; };
 		93E3C6882EB6C7E600833621 /* VoteVaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VoteVaultUITests.xctest; path = "/Users/asaxena/workspace/apps/VoteVault/ios/build/Debug-iphoneos/VoteVaultUITests-Runner.app/PlugIns/VoteVaultUITests.xctest"; sourceTree = "<absolute>"; };
 		93E3C6D52EB849EC00833621 /* LADataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LADataStore.swift; sourceTree = "<group>"; };
@@ -136,6 +135,7 @@
 		93E3C6DD2EB977C200833621 /* LACandidateTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LACandidateTileView.swift; sourceTree = "<group>"; };
 		93E3C6DF2EB977D800833621 /* LACandidateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LACandidateDetailView.swift; sourceTree = "<group>"; };
 		93E3C6E12EB9829B00833621 /* LATransactionRowViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LATransactionRowViews.swift; sourceTree = "<group>"; };
+		93E3C6E32EB98F5A00833621 /* VoteVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = VoteVault.app; path = "/Users/asaxena/workspace/apps/VoteVault/ios/build/Debug-iphoneos/VoteVault.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -341,7 +341,7 @@
 			packageProductDependencies = (
 			);
 			productName = VoteVault;
-			productReference = 93E3C6862EB6C7E600833621 /* VoteVault.app */;
+			productReference = 93E3C6E32EB98F5A00833621 /* VoteVault.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9390CC132E58E96A00CBFD35 /* VoteVaultTests */ = {
@@ -712,7 +712,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.VoteVault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -745,7 +745,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.VoteVault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
