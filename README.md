@@ -1,8 +1,9 @@
 <p align="center">
   <img src="ios/VoteVault/Assets.xcassets/AppIcon.appiconset/VoteVault.png" alt="VoteVault Logo" width="150" height="150">
-  <h1 align="center">VoteVault</h1>
+  <h1 align="center">BallotBux</h1>
+  
   <p align="center">
-    Follow the money in US politics, from D.C. to your City Hall.
+    <strong>Follow the money in US politics, from D.C. to your City Hall.  Download iOS app <a href="https://apps.apple.com/app/ballotbux/id6754804701">here.</strong>
   </p>
 </p>
 
@@ -16,7 +17,7 @@
 
 ## About The Project
 
-VoteVault provides users with clear visibility into campaign finances for political elections in the United States. Follow the money and see who is funding candidates at the federal, state, and local levels. This app aggregates data from various public APIs to present a streamlined, mobile-friendly view of contributions and expenditures.
+BallotBux provides users with clear visibility into campaign finances for political elections in the United States. Follow the money and see who is funding candidates at the federal, state, and local levels. This app aggregates data from various public APIs to present a streamlined, mobile-friendly view of contributions and expenditures.
 
 ---
 
@@ -101,10 +102,10 @@ To get a local copy up and running, follow these simple steps.
 
 1.  Clone the repo
     ```sh
-    git clone [https://github.com/your_username/VoteVault.git](https://github.com/your_username/VoteVault.git)
+    git clone [https://github.com/your_username/BallotBux.git](https://github.com/your_username/BallotBux.git)
     ```
 2.  Create the `Secrets.xcconfig` File
-    * At the root of the project (in the same directory as `VoteVault.xcodeproj`), create a new file named `Secrets.xcconfig`.
+    * At the root of the project (in the same directory as `BallotBux.xcodeproj`), create a new file named `Secrets.xcconfig`.
 3.  Add Your API Token
     * Add your San Francisco OpenData app token to the new file:
     ```ini
@@ -120,7 +121,7 @@ To get a local copy up and running, follow these simple steps.
     * Click the **"+"** button to add a new row under "Custom Target Properties".
     * **Key:** `SF_APP_TOKEN`
     * **Value:** `$(SF_APP_TOKEN)`
-7.  Open `VoteVault.xcodeproj` in Xcode and run the app.
+7.  Open `BallotBux.xcodeproj` in Xcode and run the app.
 
 ---
 
