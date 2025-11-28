@@ -91,7 +91,7 @@
 - Registered Political Candidates, Committees and Entities in Iowa
   - https://data.iowa.gov/api/v3/views/5dtu-swbk/query.json
   - https://data.iowa.gov/api/v3/views/5dtu-swbk/query.json?app_token=XXX&query=SELECT committee_type GROUP BY committee_type
-  - data.iowa.gov/api/v3/views/5dtu-swbk/query.json?app_token=bt4sBqbyVztVRdDTQLjM7Ac2U&query=SELECT * WHERE committee_type='Governor'
+  - data.iowa.gov/api/v3/views/5dtu-swbk/query.json?app_token=XXX&query=SELECT * WHERE committee_type='Governor'
   - 
   
 - Iowa Campaign Contributions Received
